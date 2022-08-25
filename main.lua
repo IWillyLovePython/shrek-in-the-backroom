@@ -3,6 +3,7 @@ local gun = getsenv(game:GetService("Players").LocalPlayer.Backpack.Gun.HandgunS
 setupvalue(gun.UpdateAmmo, 2, 10000000000)
 
 --shreks in backroom fast gun
+
 func = hookfunction(wait, function(sec)
     if sec == 0.36363636363636365 then return end
     return func(sec)
